@@ -3,7 +3,7 @@ resource "aws_instance" "grp5" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "jenkins-terraform"
+    Name = "grp5"
   }
 }
 
